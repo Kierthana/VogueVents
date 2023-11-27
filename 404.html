@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Vogue Vents</title>
+    <link rel="icon" href="src/favicon.ico" type="image/x-icon">
+    <style>
+        body {
+            background-color: #55156C; /* Violet background color */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif; /* You can change the font-family */
+            color: white; /* Text color */
+        }
+        a{
+            text-decoration: none;
+            color: rgb(93, 88, 228);
+
+        }
+        .error-container {
+            text-align: center;
+        }
+
+        .large-text {
+            font-size: 120px; /* Adjust the size as needed */
+            font-weight: bold;
+        }
+
+        .ghost-animation {
+            animation: float 3s infinite; /* Ghost animation */
+        }
+
+        @keyframes float {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-20px);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="error-container">
+        <br>
+        <br>
+        <br>
+        <img src="src/1b-404.webp">
+        <!-- <h1 class="large-text">4<span ><img  style ="width: 15%;"src='src/ghost.png'></span>4</h1> -->
+        <p>Oops! The page is playing hide and seek. Can you find it? 🔍🙈</p>
+        <p><a href="/home.html">Back to Home</a></p>
+    </div>
+</body>
+</html>
